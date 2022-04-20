@@ -1,0 +1,43 @@
+[{
+        "precio": 300,
+        "id": 1,
+        "title": "Delay DD-3",
+        "thumbnailUrl": "./images/dd-3t_tn.jpg",
+        "tipo": "delay"
+    },
+    {
+        "precio": 200,
+        "id": 2,
+        "title": "Overdrive",
+        "thumbnailUrl": "./images/sd-1w_top_tn.jpg",
+        "tipo": "distortion"
+    },
+    {
+        "precio": 250,
+        "id": 3,
+        "title": "Fuzz",
+        "thumbnailUrl": "./images/fz-1w_tn.jpg",
+        "tipo": "distortion"
+    },
+    {
+        "precio": 230,
+        "id": 4,
+        "title": "Octave",
+        "thumbnailUrl": "./images/oc-5_tn.jpg",
+        "tipo": "dynamics"
+    },
+    {
+        "precio": 280,
+        "id": 5,
+        "title": "Tera Echo",
+        "thumbnailUrl": "./images/te-2_top_tn.jpg",
+        "tipo": "delay"
+    },
+    {
+        "precio": 250,
+        "id": 6,
+        "title": "Compressor",
+        "thumbnailUrl": "./images/cp-1x_tn.jpg",
+        "tipo": "dynamics"
+    }
+]
