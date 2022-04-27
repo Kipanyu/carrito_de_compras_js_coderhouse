@@ -7,13 +7,18 @@ const templateCarrito = document.getElementById('template-carrito').content
 const fragment = document.createDocumentFragment()
 let carrito = {}
 
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     fetchData()
-    if(localStorage.getItem('carrito')) {
-        carrito = JSON.parse(localStorage.getitem('carrito'))
+    if (localStorage.getItem('carrito')) {
+        carrito = JSON.parse(localStorage.getItem('carrito'))
         pintarCarrito()
     }
 })
+
+
 
 cards.addEventListener('click', e => {
     addCarrito(e)
@@ -22,6 +27,7 @@ cards.addEventListener('click', e => {
 items.addEventListener('click', e => {
     btnAccion(e)
 })
+
 
 
 const fetchData = async () => {
@@ -117,6 +123,8 @@ const fetchData = async () => {
         })
     }
 
+    
+
     const btnAccion = e => {
         console.log(e.target)
         //aumentar
@@ -139,3 +147,16 @@ const fetchData = async () => {
         }
         e.stopPropagation()
     }
+
+    const btn = document.getElementByClassName("btn-dark");
+
+    btn.addEventListener("click", () => {
+        swal.fire({
+            title: 'prueba',
+            text: 'test',
+            icon: 'success',
+            confirm: 'Ok'
+        })
+    })
+
+    
