@@ -1,11 +1,6 @@
-const btn = document.getElementByClassName("btn-dark");
-
-btn.addEventListener("click", () => {
-    swal.fire({
-        title: 'prueba',
-        text: 'test',
-        icon: 'success',
-        confirm: 'Ok'
-    })
+Swal.fire({
+    title: 'Bienvenido!',
+    text: 'puedes utilizar el carro para realizar compras',
+    icon: 'info',
+    confirmButtonText: 'Cool'
 })
-
